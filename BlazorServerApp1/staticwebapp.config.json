@@ -1,0 +1,22 @@
+{
+  //"routes": [
+  //  {
+  //    "route": "/*",
+  //    "serve": "/index.html",
+  //    "statusCode": 200
+  //  }
+  //],
+  "routes": [
+    {
+      "route": "/chatHub",
+      "allowedRoles": [ "anonymous" ],
+      "negotiateVersion": 1,
+      "proxy": "signalr"
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ]
+}
