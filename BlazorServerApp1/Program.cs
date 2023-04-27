@@ -1,6 +1,7 @@
 using BlazorServerApp1.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
